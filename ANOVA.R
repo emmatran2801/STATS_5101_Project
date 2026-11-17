@@ -101,7 +101,7 @@ par(mfrow = c(1, 2))
 plot(log_anova_approvals, which = c(1, 2))
 dev.off()
 
-# Log-transformed model for differences in H-1B initial approvals
+# Log-transformed model for differences in H-1B continuing approvals
 summary(log_continuing_approvals) # not significant => stop here
 
 
